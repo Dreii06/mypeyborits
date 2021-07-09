@@ -1,0 +1,128 @@
+body {background-color: #171717;}
+
+@font-face {
+    font-family: Font;
+    src: url('/fonts/Bebas-Regular.otf');
+}
+.imghome {
+    margin-left: -120px;
+    width: 425px;
+    height: 425px;
+}
+
+.imghome2 {
+    margin-right: -120px;
+    width: 425px;
+    height: 425px;
+}
+
+.info {
+    font-family: Font;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.btnhome {
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.btnball {
+    font-family: Font;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    border-radius: 25px;
+    height: 150px;
+    width: 350px;
+    margin-bottom: 15px;
+    background: url("/img/basketball.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.btnball:hover {
+    background: url("/img/basketball.jpg") no-repeat;
+    color: whitesmoke;
+}
+
+.btnanime {
+    font-family: Font;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    border-radius: 25px;
+    height: 150px;
+    width: 350px;
+    margin-bottom: 15px;
+    background: url("/img/anime.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0%;
+    transition-duration: 0.4s;
+}
+
+.btnanime:hover{
+    background: url("/img/anime.png") no-repeat;
+    color: whitesmoke;
+}
+
+.btnseries {
+    font-family: Font;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    border-radius: 25px;
+    height: 150px;
+    width: 350px;
+    margin-bottom: 15px;
+    background: url("/img/tvseries.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.btnseries:hover {
+    background: url("/img/tvseries.jpg") no-repeat;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.secondcontainer {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: -550px;
+    margin-top: -100px;
+}
+
+.name {
+    font-family: Font;
+    margin-left: 50px;
+    color: white;
+}
+
+.details {
+    margin-top: 120px;
+    margin-left: -50px;
+    color: white;
+}
+
+.details2 {
+    margin-top: 400px;
+    margin-left: 150px;
+    color: white;
+}
